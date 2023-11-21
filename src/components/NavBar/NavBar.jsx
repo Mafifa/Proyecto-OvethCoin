@@ -1,6 +1,7 @@
-import React, { Component } from 'react'
-import { MenuData } from './MenuData'
-import '../../stylesheets/NavBar.css'
+import React, { Component } from 'react';
+import { MenuData } from './MenuData';
+import '../../stylesheets/NavBar.css';
+import OvethCoinIcono from '../../img/Logo.ico';
 export default class NavBar extends Component {
   state = { clicked: false };
   handleClick = () => {
@@ -11,7 +12,13 @@ export default class NavBar extends Component {
     return (
       <nav className='NavBarItems'>
         <h1 className='logo'>OvethCoin
-          <i className='fab fa-react'></i> {/*PARA COLOCAR EL LOGO*/}
+          <i>
+            <img
+              className='logo-img'
+              src={OvethCoinIcono}
+              alt="Logo de la moneda"
+            />
+          </i>
         </h1>
 
         <div className='menu-icons'
