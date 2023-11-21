@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { MenuData } from './MenuData';
 import '../../stylesheets/NavBar.css';
 import OvethCoinIcono from '../../img/Logo.ico';
+import { RxHamburgerMenu } from "react-icons/rx";
 export default class NavBar extends Component {
   state = { clicked: false };
   handleClick = () => {
