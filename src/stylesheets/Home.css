@@ -1,34 +1,34 @@
 .home {
-    display: flex;
-    margin: 30px 75px;
+  display: flex;
+  margin: 30px 75px;
 }
 
 .detalles {
-    width: 700px;
+  width: 700px;
 }
 
 .titulo {
-    font-size: 45px;
+  font-size: 45px;
 }
 
 .parrafo {
-    margin-top: .5rem;
-    font-size: 1.2rem;
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
 }
 
 .buy {
-    margin: 0px 20px;
-    margin-left: 40px;
+  margin: 0px 20px;
+  margin-left: 40px;
 }
 
 .whitepaper,
 .auditoria {
-    margin: 15px 15px;
-    padding: 15px;
-    border-radius: 8px;
+  margin: 15px 15px;
+  padding: 15px;
+  border-radius: 8px;
 }
 
 .img-home {
-    width: 500px;
-    margin: 0px -20px 0px 180px;
+  width: 500px;
+  margin: 0px -20px 0px 180px;
 }

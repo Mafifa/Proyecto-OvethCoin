@@ -1,9 +1,8 @@
-import React from 'react';
-import './App.css';
-import NavBar from './components/NavBar/NavBar.jsx';
-import Home from './components/Home.jsx';
-import Featured from './components/Featured.jsx';
-
+import React from "react";
+import "./App.css";
+import NavBar from "./components/NavBar.jsx";
+import Home from "./components/Home.jsx";
+import Featured from "./components/Featured.jsx";
 
 function App() {
   return (
