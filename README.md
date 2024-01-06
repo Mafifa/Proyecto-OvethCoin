@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+#Proyecto
+De momento este es solo un proyecto que busca el cuidado del planeta mientras se intenta ganar capital
+
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
